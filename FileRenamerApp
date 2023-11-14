@@ -6,9 +6,38 @@ Description: Main application class for the Bulk File Rename Tool.
 */
 
 public class FileRenamerApp {
-    // TODO: Add necessary attributes
-    
-    // TODO: Add constructors
-    
-    // TODO: Add methods
+    // Attributes
+    private String selectedFolder;
+    private String[] selectedFiles;
+
+    // Constructors
+    public FileRenamerApp() {
+        // Default constructor
+    }
+
+    public FileRenamerApp(String selectedFolder, String[] selectedFiles) {
+        this.selectedFolder = selectedFolder;
+        this.selectedFiles = selectedFiles;
+    }
+
+    // Getters and Setters
+    public String getSelectedFolder() {
+        return selectedFolder;
+    }
+
+    public void setSelectedFolder(String selectedFolder) {
+        this.selectedFolder = selectedFolder;
+    }
+
+    public String[] getSelectedFiles() {
+        return selectedFiles;
+    }
+
+    public void setSelectedFiles(String[] selectedFiles) {
+        this.selectedFiles = selectedFiles;
+    }
+
+    // Methods
+    // TODO: Add relevant methods
 }
+
