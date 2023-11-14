@@ -12,4 +12,4 @@ This project is a bulk file rename tool that allows users to select a folder, di
 4. **FileRenamer** (Class to handle file renaming based on a pattern) -Gaven V
 
 ## Phase 3 Upload
-I did not give myself enough time to add elements into my classes. However, I have created stubs for each of the above classes.
+I did not give myself enough time to add elements into all my classes. I did add a few getter and setter methods and the default constructor into FileRenamerApp. Beyond that I have created basic stubs for each of the above classes.
