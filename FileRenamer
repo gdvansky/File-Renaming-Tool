@@ -1,0 +1,14 @@
+/*
+Bulk File Rename Tool
+Author: Gaven Van Skyock
+Date: 11/13/2023
+Description: Class to handle file renaming based on a pattern for the Bulk File Rename Tool.
+*/
+
+public class FileRenamer {
+    // TODO: Add necessary attributes
+    
+    // TODO: Add constructors
+    
+    // TODO: Add methods
+}
