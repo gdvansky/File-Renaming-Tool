@@ -1,5 +1,6 @@
 # -File-Renaming-Tool-
 Team Members: Gaven Van Skyock
+
 Project description:
 This project is a bulk file rename tool that allows users to select a folder, display its content, and rename multiple files based on a specified pattern.
 
