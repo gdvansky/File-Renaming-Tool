@@ -1,4 +1,9 @@
-
+/*
+Bulk File Rename Tool
+Author: Gaven Van Skyock
+Date: 11/13/2023
+Description: Class to handle folder selection for the Bulk File Rename Tool.
+*/
 
 public class FolderSelector {
     // TODO: Add necessary attributes
