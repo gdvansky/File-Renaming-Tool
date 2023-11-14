@@ -1,6 +1,14 @@
 # -File-Renaming-Tool-
-Team Members: Gaven Van Skyock, Thomas Polega, Steven Love, & Gavin Daniels
+Team Members: Gaven Van Skyock
 Project description:
-Our project is going to be...
+This project is a bulk file rename tool that allows users to select a folder, display its content, and rename multiple files based on a specified pattern.
 
-"a bulk file rename tool that lets you select a folder, display its content, and select a bunch of files to give them names based on a pattern, such as "holiday1.jpg", "holliday2.jpg", "holiday3.jpg", and so on."
+## Class Distribution
+
+1. **FileRenamerApp** (Main application class) - Gaven V
+2. **FolderSelector** (Class to handle folder selection) - Gaven V
+3. **FileListDisplay** (Class to display the content of a selected folder) - Gaven V
+4. **FileRenamer** (Class to handle file renaming based on a pattern) -Gaven V
+
+## Phase 3 Upload
+I did not give myself enough time to add elements into my classes. However, I have created stubs for each of the above classes.
