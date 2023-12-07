@@ -1,3 +1,5 @@
+import java.io.File;
+import java.util.ArrayList;
 /*
 Bulk File Rename Tool
 Author: Gaven Van Skyock
@@ -6,9 +8,13 @@ Description: Class to handle file renaming based on a pattern for the Bulk File 
 */
 
 public class FileRenamer {
-    // TODO: Add necessary attributes
-    
-    // TODO: Add constructors
-    
-    // TODO: Add methods
+    // Add necessary fields, constructor, and methods for file renaming logic
+
+    public FileRenamer() {
+        // Initialize any necessary components or settings
+    }
+
+    public void renameFiles(ArrayList<File> files, String pattern) {
+        // Implement logic to rename files based on the provided pattern
+    }
 }
