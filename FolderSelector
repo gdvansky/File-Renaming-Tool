@@ -1,3 +1,6 @@
+import javax.swing.*;
+import java.io.File;
+
 /*
 Bulk File Rename Tool
 Author: Gaven Van Skyock
@@ -6,9 +9,21 @@ Description: Class to handle folder selection for the Bulk File Rename Tool.
 */
 
 public class FolderSelector {
-    // TODO: Add necessary attributes
-    
-    // TODO: Add constructors
-    
-    // TODO: Add methods
+    private JFrame frame;
+    private JFileChooser fileChooser;
+
+    public FolderSelector() {
+        // Initialize GUI components for folder selection
+        frame = new JFrame("Folder Selector");
+        fileChooser = new JFileChooser();
+        fileChooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
+        // Add necessary GUI components and set up event listeners
+        // ...
+    }
+
+    public File selectFolder() {
+        // Implement logic to show the folder selection dialog and return the selected folder
+        // ...
+        return null;
+    }
 }
