@@ -1,3 +1,6 @@
+import javax.swing.*;
+import java.io.File;
+
 /*
 Bulk File Rename Tool
 Author: Gaven Van Skyock
