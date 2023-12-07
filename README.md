@@ -26,7 +26,7 @@ This project is a bulk file rename tool that allows users to select a folder, di
 
 ## Running the Application
 
-To run the Bulk File Rename Tool, execute the main method in the `FileRenamerApp` class. The application will prompt you to select a folder, display its content, and perform bulk file renaming based on a specified pattern.
+To access the source files, please visit my Github Repository: .
 
 ### Instructions:
 
