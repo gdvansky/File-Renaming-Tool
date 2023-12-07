@@ -23,7 +23,24 @@ public class FolderSelector {
 
     public File selectFolder() {
         // Implement logic to show the folder selection dialog and return the selected folder
-        // ...
-        return null;
+        int result = fileChooser.showOpenDialog(frame);
+
+        if (result == JFileChooser.APPROVE_OPTION) {
+            return fileChooser.getSelectedFile();
+        } else {
+            return null;
+        }
+    }
+
+    public static void main(String[] args) {
+        // Demonstrate using FolderSelector in a simple way
+        FolderSelector folderSelector = new FolderSelector();
+        File selectedFolder = folderSelector.selectFolder();
+
+        if (selectedFolder != null) {
+            System.out.println("Selected folder: " + selectedFolder.getAbsolutePath());
+        } else {
+            System.out.println("Folder selection canceled.");
+        }
     }
 }
