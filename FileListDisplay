@@ -1,14 +1,30 @@
 /*
 Bulk File Rename Tool
 Author: Gaven Van Skyock
-Date: 11/13/2023
-Description: Class to handle folder selection for the Bulk File Rename Tool.
+Date: 12/07/2023
+Description: Class for displaying the contents of a selected folder.
 */
 
 public class FileListDisplay {
-    // TODO: Add necessary attributes
-    
-    // TODO: Add constructors
-    
-    // TODO: Add methods
+     private JFrame frame;
+    private JList<File> fileList;
+    private DefaultListModel<File> listModel;
+
+    public FileListDisplay() {
+        // Initialize GUI components and set up the file list display
+        // You can use Swing components for creating the GUI
+        frame = new JFrame("File List Display");
+        listModel = new DefaultListModel<>();
+        fileList = new JList<>(listModel);
+        // Add necessary GUI components and set up event listeners
+        // ...
+    }
+// Add methods to update the file list and handle user interactions
+    // ...
+
+    public static void main(String[] args) {
+        // Create an instance of FileListDisplay and show the GUI
+        FileListDisplay fileListDisplay = new FileListDisplay();
+        SwingUtilities.invokeLater(() -> fileListDisplay.frame.setVisible(true));
+    }
 }
