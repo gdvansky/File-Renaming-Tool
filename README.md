@@ -26,7 +26,7 @@ This project is a bulk file rename tool that allows users to select a folder, di
 
 ## Running the Application
 
-To access the source files, please visit my Github Repository: .
+To access the source files, please visit my Github Repository: https://github.com/gdvansky/File-Renaming-Tool.
 
 ### Instructions:
 
